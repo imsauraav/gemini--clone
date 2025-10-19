@@ -1,41 +1,48 @@
 # Gemini Clone
 
-Gemini Clone is a project aimed at replicating the functionality of Gemini, powered by the Google Gemini API, using React and CSS.
+Gemini Clone is a responsive React-based AI chat interface inspired by Gemini. It provides a sleek and modern design with smooth animations, interactive prompt cards, and a recent chats sidebar. Fully mobile-friendly, it ensures a seamless user experience across devices.
 
-## Table of Contents
+Features
 
-- [Introduction](#introduction)
-- [Features](#features)
-  - [Core Features](#core-features)
-  - [Additional Features](#additional-features)
-  - [Potential Enhancements](#potential-enhancements)
+Interactive prompt cards for quick suggestions
 
-## Introduction
+Recent prompts sidebar to access previous chats
 
-This project introduces a React-based web application that functions as a clone of the Google Gemini AI chatbot. It provides a user-friendly interface for interacting with the powerful Gemini model, allowing you to ask questions and receive informative responses in a conversational manner.
+Smooth loading animations and hover effects
 
-## Features
+Fully responsive layout for desktop and mobile
 
-### Core Features
+Clean, modern UI design
 
-- **Chat Interface:** Provides a dedicated interface for interacting with the Gemini model in a conversational style.
-- **Simulated Typing Effect:** Enhances the user experience by mimicking a natural typing effect during responses.
-- **Google Gemini Integration:** Utilizes the capabilities of the Google Gemini model for generating informative responses.
+Install dependencies:
+npm install
 
-### Additional Features
+Start the development server:
+npm run dev
 
-- **React-based Development:** Leverages React's efficient component-based approach for building the application.
-- **CSS Styling:** Employs CSS to style the user interface for visual appeal and usability.
+Usage
 
-### Potential Enhancements
+Click on the prompt cards to auto-fill the input box
 
-- **Conversation History:** Keeps a record of past interactions for reference.
-- **Advanced UI Elements:** Introduces additional features like emojis, formatting options, or user avatars.
-- **Enhanced Functionality:** Explores integrating functionalities like image search or language translation.
+Type any query in the input field and hit the send button
 
-## Installation
+Recent prompts are stored in the sidebar for easy access
 
-1. Clone the repository:
+Technologies Used
 
-   ```bash
-   git clone https://github.com/iamakashpc/Gemini-Clone.git
+React
+
+CSS3
+
+JavaScript
+
+Context API for state management
+
+Screenshots
+
+<img width="1897" height="911" alt="image" src="https://github.com/user-attachments/assets/db8c940c-9ab8-42c4-b3cb-92b95625062f" />
+
+
+License
+
+This project is for learning and experimentation purposes.
